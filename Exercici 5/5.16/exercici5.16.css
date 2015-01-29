@@ -1,0 +1,54 @@
+
+/* 
+    Created on : 20-ene-2015, 16:25:36
+    Author     : fran
+*/
+#wrapper{
+    box-sizing: border-box;
+    width:100%;
+    margin: 5px;
+}
+@font-face{
+    font-family:header;
+    src:url(DroidSans.ttf);
+}
+
+@font-face{
+    font-family:header_text;
+    src:url(fast99.ttf);
+}
+@font-face{
+    font-family:header_content;
+    src:url(sewer.ttf);
+}
+
+.content{
+    font-family:header_text;
+    float:left;
+    width: 45%;
+    border: 1px #cc0066 solid;
+    padding: 10px;
+    margin: 10px;
+    max-height: 600px;
+    overflow-y: scroll;
+}
+#primero{
+    font-family:header;
+ -moz-column-count: 4;
+-moz-column-gap: 20px;
+-webkit-column-count: 4;
+-webkit-column-gap: 20px;
+column-count: 4;
+column-gap: 20px;
+overflow-y: scroll;
+}
+#segundo{
+    font-family:header_content;
+width: 150px;
+height: 150px;
+overflow-y: scroll;
+word-wrap: break-word;
+overflow-y: scroll;
+}
+
+

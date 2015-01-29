@@ -1,0 +1,21 @@
+p{
+    padding:5px;
+    border:1px #99ff99 double;
+    background-color:#cccccc;
+    color:#cc0066;
+    font-size:0.9em;
+}
+section{
+    width:35%;
+    float:left;
+}
+#contenedor{
+    box-sizing: content-box;
+    padding:10px;
+    margin:10px;
+}
+#bordeador{
+    box-sizing: border-box;
+    padding:10px;    
+    margin:10px;
+}

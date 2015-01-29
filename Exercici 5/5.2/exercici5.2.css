@@ -1,0 +1,13 @@
+h1~h2{
+    width:40%;
+    background-color:#eedfee;
+    display:block;
+    border:2px #2f42cb double;
+    border-radius: 15px;
+    font-size: 1.5em;
+    color:#30A241;
+   text-shadow:1px 2px 10px #260db3;
+}
+header{
+    max-width:50%;
+}

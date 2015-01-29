@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Exercici 2.3</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h3>Encuesta personal</h3>
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <div>
+                <label>Nombre </label><input type="text"/><br/>
+                <label>Apellidos </label><input type="text"/><br/>
+                <label>email </label><input type="text"/><br/>
+                <label>Hombre</label><input type="radio" name="sex"/><label>Mujer</label><input type="radio" name="sex"/><br/>
+                <label>Password</label><input type="password"/>
+            </div>
+        </fieldset><br/>
+        <fieldset>
+            <legend>Vehiculos</legend>
+            <div>
+                <label>Bici: </label><input type="checkbox" /><br/>
+                <label>Coche: </label><input type="checkbox" /> 
+                <select>
+                    <option>Audi</option>
+                    <option>BMW</option>
+                    <option>MG</option>
+                    <option>RENAULT</option>
+                    <option>FORD</option>
+                    <option>MERCEDES</option>
+                </select><br/>
+                <label>Avi&oacute;n:</label><input type="checkbox"/><br/>
+            </div>
+        </fieldset><br/>
+        Otros datos
+        <fieldset>
+            <textarea rows="10" cols="50">Escriba aqui su comentario...</textarea><br/>
+            <label>Seleccione su sistema operativo:</label>
+            <select>
+                <option>none</option>
+                <optgroup label="Debian GNU/Linux">
+                    <option>Debian GNU/Linux Sarge</option>
+                    <option>Debian GNU/Linux Lenny</option>
+                    <option>Debian GNU/Linux Squeezy</option>
+                </optgroup>
+                <optgroup label="Microsoft Windows">
+                    <option>Microsoft Windows 7</option>
+                    <option>Microsoft Windows vista</option>
+                    <option>Microsoft Windows 8</option>
+                </optgroup>
+                <optgroup label="Mac OS X">
+                    <option>Mac OS X v10.4(Tiger)</option>
+                    <option>Mac OS X v10.5(Leopard)</option>
+                    <option>Mac OS X v10.6(Snow Leopard)</option>
+                </optgroup>
+            </select><br/>
+            <label>Adjuntar CV</label> <input type="file" value="Navega..."/>
+            
+        </fieldset>
+        <input type="button" value="Enviar"/> <input type="button" value="Cancelar"/>
+    </body>
+</html>

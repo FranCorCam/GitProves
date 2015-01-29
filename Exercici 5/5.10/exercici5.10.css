@@ -1,0 +1,34 @@
+#container{
+    box-sizing: border-box;
+    width:100%;
+}
+#container section{
+    padding:10px;
+    margin:10px;
+    float:left;
+    width:45%;
+    border:2px #cc33ff dashed;
+    height: 350px;
+    text-overflow: hidden;
+    overflow-y: scroll;
+}
+
+#hsbcolor{
+    background-color:hsl(279,17%,64%);
+    color: hsl(259,70%,42%);
+}
+
+#hsbcolorT{
+    background-color:hsla(279,17%,64%,.39);
+    color: hsla(259,70%,42%,.35);
+}
+#rgbcolorT{
+    background-color: rgba(31, 123, 221, 1);
+    color: rgba(255, 158, 22, 1);
+}
+#transparent{
+    background-color: rgba(31, 123, 221, 1);
+    color: rgba(255, 158, 22, 1);
+    opacity:.35;
+}
+

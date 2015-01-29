@@ -1,0 +1,19 @@
+#anterior{
+    
+    display:inline;
+}
+#siguiente{
+    
+    padding-left: 60%;
+    display:inline;
+    padding-right: 0%;
+}
+div{
+    padding-bottom: 0.2em;
+    padding-top: 0.2em;
+    background-color: #cccccc;
+}
+
+#container{
+    margin-right: 63%;
+}

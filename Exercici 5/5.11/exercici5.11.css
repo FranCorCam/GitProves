@@ -1,0 +1,29 @@
+#container{
+    box-sizing: border-box;
+    width:100%;
+}
+#container section{
+    padding:10px;
+    margin:10px;
+    float:left;
+    width:45%;
+    border:2px #cc33ff double;
+    height: 350px;
+    text-overflow: hidden;
+    overflow-y: scroll;
+}
+#first{
+    border-radius: 10px;
+}
+#second{
+    border-radius:15px 45px 5px 25px;
+}
+#third{
+    border-radius:35px/15px;
+}
+#fourth{
+  border-top-left-radius: 10%;
+  border-top-right-radius: 20%;
+  border-bottom-right-radius: 30%;
+  border-bottom-left-radius: 40%;
+}

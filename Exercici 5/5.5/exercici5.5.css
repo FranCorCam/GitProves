@@ -1,0 +1,33 @@
+.container{
+    box-sizing: border-box;
+    padding: 10px;
+    max-width:100%;
+    margin:25px;
+}
+section[id]{
+    width:30%;
+    float:left;
+    border: 1px black solid;
+    margin:10px;
+}
+ul{
+    line-height: 2;
+}
+#first li:nth-child(2){
+    background-color:#ff9933;
+}
+#second li:nth-of-type(2n+1){
+    background-color:#ff9933;
+}
+#third li:nth-child(n+3){
+    background-color:#ff9933;
+}
+#fourth li:nth-child(-n+3){
+    background-color:#ff9933;
+}
+#fifth li:nth-of-type(3n+3){
+    background-color:#ff9933;
+}
+#sixth li:nth-child(3n+1){
+    background-color:#ff9933;
+}

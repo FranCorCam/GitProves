@@ -1,0 +1,21 @@
+div {
+width:300px;
+border-style:solid;
+}
+
+#caixanegra{
+    position:absolute;
+    border-bottom: 3px black solid;
+    border-right: 12px black solid;
+    border-top: 8px black solid;
+    border-left:1px black solid;
+}
+#caixablanca{
+    position:absolute;
+    top:20%;
+    left:23%;
+    border-bottom: 3px #66ff66 solid;
+    border-right: 12px blue solid;
+    border-top: 8px red solid;
+    border-left:1px solid;
+}

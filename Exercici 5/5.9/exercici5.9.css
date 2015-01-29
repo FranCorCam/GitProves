@@ -1,0 +1,20 @@
+section{
+    width:35%;
+    height: 300px;
+    border: 2px #009999 solid;
+    float:left;
+    margin:5px;
+    padding: 5px;
+}
+
+#overflowY p{
+    white-space: nowrap;
+}
+
+#overflowX{
+    overflow-y: scroll;
+}
+#overflowY{
+    overflow-y:hidden;
+    overflow-x:hidden;
+}

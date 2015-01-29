@@ -1,0 +1,57 @@
+/* Todos los hijos directos a de p */
+p > a{
+    color: #CC3300;
+}
+/*todos los elementos em dentro de p*/
+p em{
+    color: #ff66cc;
+}
+/* Todos los párrafos contenidos en #primero */
+span+em{
+    color: #990000;
+}
+/*todos los elementos que tengan atributo id*/
+[id]{
+    color:#6699ff;
+}
+/*todos los elementos que tengan atributo class con ese valor*/
+[class=prova3]{
+    font-style: italic;
+    font-size: 2em;
+}
+/*todos los elementos que tengan atributo class que contengan externo*/
+[class~=externo]{
+    font-size: 0.5em;
+    color:#336699;
+}
+
+[class|=espeial]{
+    font-size:1.2em;
+    font-style:oblique;
+    color:#00cccc;
+}
+
+/* Se muestran de color azul todos los enlaces que tengan un atributo "class",
+independientemente de su valor */
+a[class] {
+    font-size: 3em; 
+}
+/* Se muestran de color azul todos los enlaces que tengan un atributo "class" con el
+valor "externo" */
+a[class="prova3"] {
+    font-style: italic;
+    font-family: fantasy;
+}
+span:first-child{
+    font-size: 1.5em;
+    text-decoration:line-through;
+    
+}
+a:link{
+    background-color: #00ffff;
+}
+a:visited{
+    background-color: #990099;
+}
+
+

@@ -1,0 +1,53 @@
+div.caixa1{
+    margin-bottom: 15%; 
+    margin-top: 8%;
+    margin-left: 25%;
+    margin-right: 25%; 
+}
+body {
+    background: url("img/matrix.jpg");
+    background-repeat: repeat;    
+}
+#top{
+   border:3px #66ff33 solid; 
+}
+
+.caixa1{
+    padding: 0%;
+    position: absolute;
+    top: 10%;
+    right:15%;
+    left:10%;
+    bot:10%;
+    border:3px #66ff33 solid;   
+}
+
+.caixacss{
+    position: absolute;
+    padding: 0%;
+    top:0%;
+    left:52%;
+    bot:10%;
+}
+.caixaphp{
+    position: absolute;
+    padding: 0%;
+    top:100%;
+    right:100%;
+    left:50%;
+    bot:0%;    
+    
+}
+.caixajs{
+    position: absolute;
+    padding: 0%;
+    top:100%;
+    right:50%;
+    left:0%;
+    bot:0%;    
+    
+}
+img{
+width:160px;
+height:150px;    
+}

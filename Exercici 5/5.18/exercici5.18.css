@@ -1,0 +1,72 @@
+#formulario{
+    position:fixed;
+    width:370px;
+    height: 230px;
+    border: 1px #999999 dashed;
+    left:35%;
+    top:25%;
+    background: #f1f1f1;
+     box-shadow: 0 0 2px rgba(0, 0, 0, 0.2),  
+                0 1px 1px rgba(0, 0, 0, .2),
+                0 3px 0 #fff,
+                0 4px 0 rgba(0, 0, 0, .2),
+                0 6px 0 #fff,  
+                0 7px 0 rgba(0, 0, 0, .2);
+    
+}
+#formulario form{
+    text-align: center;
+}
+#formulario form h1{
+    letter-spacing: 4px;
+    text-align: center;
+    text-shadow: 0 1px #000000;
+    color:#bababa;
+    font: normal 26px/1 Verdana, Helvetica;
+}
+
+
+#formulario a{
+    color:blue;
+    text-decoration: underline;
+}
+
+#formulario form input{
+    border-radius: 5px;
+    background: #f1f1f1;
+    background:-webkit-gradient(linear, 0% 22%, 100% 100%, from(#FFFFFF), to(#CCCEC7));
+    line-height: 2;
+    width:95%;
+}
+#formulario a{
+    font-size:1vw;
+    
+}
+#login{
+    border-radius: 5px;
+    height: 30px;
+    background-color: #ff9966;
+    color:#b34b06;
+    margin:2%;
+    width:100px;
+    
+}
+#login{
+background-color: #ffb94b;
+background-image: linear-gradient(top, #fddb6f, #ffb94b);
+border-radius: 3px;
+text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+border-width: 1px;
+border-style: solid;
+border-color: #d69e31 #e3a037 #d5982d #e3a037;
+float: left;
+height: 35px;
+padding: 0;
+width: 120px;
+margin:2%;
+font: bold 15px Arial, Helvetica;
+color: #8f5a0a;
+}
+
+

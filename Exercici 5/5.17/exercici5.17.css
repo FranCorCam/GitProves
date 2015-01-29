@@ -1,0 +1,54 @@
+body{
+    box-sizing:border-box;
+    width:100%;
+    margin:5px;
+    
+    
+}
+
+section{
+    border: 5px #0000cc groove;
+    margin:25px;
+    width:30%;
+    background-color:#66ccff;
+    float:left;
+    height: 150px;
+    padding:15px;
+}
+#tr1{
+    -moz-transform: scale(1) rotate(2deg)  translateY(44px) skewX(333deg);
+-webkit-transform: scale(1) rotate(2deg)  translateY(44px) skewX(333deg);
+-o-transform: scale(1) rotate(2deg)  translateY(44px) skewX(333deg);
+-ms-transform: scale(1) rotate(2deg) translateY(44px) skewX(333deg);
+transform: scale(1) rotate(2deg)  translateY(44px) skewX(333deg);
+}
+
+#tr2{
+-moz-transform: scale(1) rotate(2deg) translateX(100px) translateY(44px) skewX(20deg) skewY(20deg);
+-webkit-transform: scale(1) rotate(2deg) translateX(100px) translateY(44px) skewX(20deg) skewY(20deg);
+-o-transform: scale(1) rotate(2deg) translateX(100px) translateY(44px) skewX(20deg) skewY(20deg);
+-ms-transform: scale(1) rotate(2deg) translateX(100px) translateY(44px) skewX(20deg) skewY(20deg);
+transform: scale(1) rotate(2deg) translateX(100px) translateY(44px) skewX(20deg) skewY(20deg);
+}
+#tr5{
+    -moz-transform: scale(0.6) rotate(75deg) translateX(190px) translateY(70px) skewX(0deg) skewY(0deg);
+-webkit-transform: scale(0.6) rotate(75deg) translateX(190px) translateY(70px) skewX(0deg) skewY(0deg);
+-o-transform: scale(0.6) rotate(75deg) translateX(190px) translateY(70px) skewX(0deg) skewY(0deg);
+-ms-transform: scale(0.6) rotate(75deg) translateX(190px) translateY(70px) skewX(0deg) skewY(0deg);
+transform: scale(0.6) rotate(75deg) translateX(190px) translateY(70px) skewX(0deg) skewY(0deg);
+}
+#tr3{
+    -moz-transform: scale(0.9) rotate(180deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+-webkit-transform: scale(0.9) rotate(180deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+-o-transform: scale(0.9) rotate(180deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+-ms-transform: scale(0.9) rotate(180deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+transform: scale(0.9) rotate(180deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+}
+#tr4{
+    -moz-transform: scale(0.9) rotate(60deg) translateX(0px) translateY(0px) skewX(5deg) skewY(35deg);
+-webkit-transform: scale(0.9) rotate(60deg) translateX(0px) translateY(0px) skewX(5deg) skewY(35deg);
+-o-transform: scale(0.9) rotate(60deg) translateX(0px) translateY(0px) skewX(5deg) skewY(35deg);
+-ms-transform: scale(0.9) rotate(60deg) translateX(0px) translateY(0px) skewX(5deg) skewY(35deg);
+transform: scale(0.9) rotate(60deg) translateX(0px) translateY(0px) skewX(5deg) skewY(35deg);
+
+}

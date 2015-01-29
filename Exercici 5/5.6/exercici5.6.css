@@ -1,0 +1,30 @@
+.container{
+    box-sizing: border-box;
+    padding: 10px;
+    max-width:100%;
+    margin:25px;
+}
+section[id]{
+    width:30%;
+    float:left;
+    border: 1px black solid;
+    margin:10px;
+}
+ul{
+    line-height: 2;
+}
+
+table{
+    width:30%;
+    text-align:center;
+}
+#first li:nth-of-type(1) {
+    background-color:#ff9933;
+}
+#first li:nth-last-of-type(1){
+    background-color:#ff9933;
+}
+#second td:nth-of-type(1){
+    background-color:#ff9933;
+}
+

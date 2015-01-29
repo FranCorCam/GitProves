@@ -1,0 +1,18 @@
+
+h1{
+    max-width: 200px;
+}
+a{
+box-sizing: border-box;
+padding: 1%;
+width: 30px;
+}
+#introduccion:target{
+    background-color:#ffcc00;
+}
+#resultados:target{
+    background-color:#ffcc00;
+}
+#conclusion:target{
+    background-color:#ffcc00;
+}

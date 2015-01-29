@@ -1,0 +1,62 @@
+#caixa{
+   width: 400px;
+   border: 1px solid;
+}
+#primero{
+    margin-left: 3%;
+    margin-right: 3%;
+    border-style: solid ;
+    border-bottom-style: groove;
+    border-right-style: groove;
+}
+#segundo{
+    margin-left: 3%;
+    margin-right: 3%;
+    border-style: solid ;
+    border-top-style: ridge;
+    border-left-style: ridge;
+}
+#tercero{
+    margin-left: 3%;
+    margin-right: 3%;
+    border-style: solid ;
+    border-top-style: outset;
+    border-left-style: outset;
+}
+#cuarto{
+    margin-left: 3%;
+    margin-right: 3%;
+   
+}
+#quinto{
+    margin-left: 3%;
+    margin-right: 3%;
+    border-style:  dashed;
+}
+#sexto{
+    margin-left: 3%;
+    margin-right: 3%;
+    border-style: solid ;
+}
+#septimo{
+    margin-left: 3%;
+    margin-right: 3%;
+   
+}
+#octavo{
+    margin-left: 3%;
+    margin-right: 3%;
+    border-style: double ;
+}
+#noveno{
+    margin-left: 3%;
+    margin-right: 3%;
+    border-style:dotted ;
+}
+#decimo{
+   margin-left: 3%;
+   margin-right: 3%;
+   border-style: solid ;
+   border-bottom-style: outset;
+   border-right-style: outset;
+}

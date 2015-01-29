@@ -1,0 +1,21 @@
+li{
+    list-style: none;
+}
+div{
+    width:20%;
+    border:1px black solid;
+}
+a{
+    padding-left: 25px;
+    text-decoration: none;
+    color:black;
+}
+img{
+    content:url(flecha_inactiva.png);
+}
+div:hover img{
+    content:url(flecha_activa.png);
+}
+div:hover{
+    background:#E4E4E4;
+}
