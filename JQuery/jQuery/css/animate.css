@@ -1,0 +1,250 @@
+
+body{
+    background-image:url(../images/backgrounds/background_pcb.jpg);
+    width: 99%;
+    height: 100%;
+}
+@font-face{
+    font-family:header;
+    src:url(../fonts/OCRA.otf);
+}
+div{
+    display:inline;
+}
+
+
+/*Declaration style of our header */
+
+#redsocial{
+    position:fixed;
+    top:0%;
+    left:0%;
+    width: 20%;
+}
+#redsocial img{
+    width:24%;
+}
+
+#logo{
+    color: white;
+     text-shadow: 0 0 10px #5399F6,
+                 0 0 20px #5399F6,
+                 0 0 25px #5399F6,
+                 0 0 35px #5399F6,
+                 0 0 55px #5399F6,
+                 0 0 70px #5399F6,
+                 0 0 90px #5399F6,
+                 0 0 120px #5399F6;
+    font-family: header;
+    font-size: 1.2vw;
+    text-align: center;
+}
+.texto{
+    opacity:1;
+    color:blue;
+    position:absolute;
+    top:30%;
+    max-width:100%;
+    font-family: header;
+    font-size: 1.3vw;
+    text-align: center;
+    font-weight: bold;
+    text-shadow:0 0 10px white , 0 0 20px white , 0 0 30px white , 0 0 40px white , 0 0 70px white , 0 0 80px white , 0 0 100px white;
+    width:100%;
+}
+.texto p{
+    width:45%;
+    padding-left:28%;
+}
+.texto p em{
+    font-size: 1.8vw;
+    text-decoration: underline;
+}
+
+#fullscreen{
+    top:0px;
+    position:fixed;
+    right:0%;
+    width:5%;
+}
+
+/*declaration style of our menu button*/
+div.oculto {
+    height: 100px;
+    left: 15%;
+    position: fixed;
+    top: 60%;
+    width: 78%;
+}
+div.menu {
+    box-sizing:border-box;
+    padding:10px;
+    max-width: 100%;
+    height: 100px;
+    left: 15%;
+    position: fixed;
+    top: 100%;
+    width: 78%;
+}
+ul li{
+    list-style: none;
+    text-decoration: none;
+}
+.menu .zindex1 {
+    left: 5%;
+    box-shadow:none !important;
+    position: absolute;
+    top: 35%;
+    width:8%;
+    height:56%;
+    z-index: 1;
+}
+.menu .zindex2 {
+    top: 35%;
+    width:8%;
+    height:56%;
+    box-shadow:none !important;
+    left: 24%;
+    position: absolute;
+    z-index: 1;
+}
+.menu .zindex3 {
+    top: 35%;
+    width:8%;
+    height:56%;
+    left: 42%;
+    box-shadow:none !important;
+    position: absolute;
+    z-index: 1;
+}
+.menu .zindex4 {
+    top: 35%;
+    width:8%;
+    height:56%;
+    box-shadow:none !important;
+    left: 60.6%;
+    position: absolute;
+    z-index: 1;
+}
+.menu .zindex5 {
+    left: 78.4%;
+    top: 35%;
+    width:8%;
+    height:56%;
+    box-shadow:none !important;
+    position: absolute;
+    z-index: 1;
+}
+.menu img {
+    max-width:100%;
+    box-shadow: 7px 10px 5px #02020F;
+    height: 119%;
+    margin-right: 13px;
+    width: 17%;
+}
+
+section[id='simg1'] {
+  left: 15%;
+}
+section[id="simg2"] {
+  left: 29.5%;
+}
+section[id='simg3'] {
+  left: 44%;
+}
+section[id='simg4'] {
+  left: 58.6%;
+}
+section[id='simg5'] {
+  left: 73%;
+}
+figcaption[id]:hover{
+    background-color: #006666;
+    color:#ccffff;
+}
+#texto p{
+    font-family:header;
+    text-shadow:0 0 10px white , 0 0 20px white , 0 0 30px white , 0 0 40px white , 0 0 70px white , 0 0 80px white , 0 0 100px white;
+    position:relative;
+    top:200px;
+    left:23%;
+    font-size:2vw;
+}
+#logofoot{
+position: fixed;
+float: right;
+top: 82%;
+left: 83%;
+width: 7%
+}
+#logofoot2{
+font-family:header;
+position: fixed;
+float: right;
+top: 84%;
+left: 89%;
+font-size:1vw;
+color:#000099;
+text-shadow: 0 0 10px #5399F6,
+             0 0 20px #5399F6,
+             0 0 25px #5399F6,
+             0 0 35px #5399F6,
+             0 0 55px #5399F6,
+             0 0 70px #5399F6,
+             0 0 90px #5399F6,
+             0 0 120px #5399F6;
+}
+
+div#lema {
+    font-family:header;
+    text-shadow: 0 0 10px #5399F6,
+                 0 0 20px #5399F6,
+                 0 0 25px #5399F6,
+                 0 0 35px #5399F6,
+                 0 0 55px #5399F6,
+                 0 0 70px #5399F6,
+                 0 0 90px #5399F6,
+                 0 0 120px #5399F6;
+    color: #000099;
+    float: left;
+    font-size:1vw;
+    left: 2%;
+    position: fixed;
+    top: 84%;
+    width: 15%;
+}
+
+
+.proves1{
+    
+    margin-left: 15%;
+    box-sizing: content-box;
+    width:100%;
+    max-height: 120px;
+    margin-right: 15%;
+    
+}
+.proves1 section{
+    width: 12%;
+    float: left;
+    margin: 15px;
+    box-shadow: 7px 10px 5px #02020F;
+    
+}
+.proves1 section img{
+    max-width:100%;
+    height:120px;
+    width: 100%;
+    margin-bottom: 0px ;
+}
+.proves1 section p{
+  opacity: 1;
+  background-color: white;
+  color: #6699ff;
+  font-size: 1.3vw;
+  line-height: 2;
+  text-align: center;
+  margin-top: -4px;
+  margin-bottom: 0px;
+  white-space: nowrap;
+}
