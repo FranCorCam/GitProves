@@ -1,0 +1,9 @@
+Recordatori de comandaments per a GiT:
+
+	1er .- Sempre fer un git pull abans de fer qualsevol altra cosa.
+	2on .- Per a poder fer un pull, si la carpeta/archiu es nova, recordar fer un git add "nom de la carpeta" o "nom de la carpeta/*" si 			es carpeta i archius.
+	3er .- Una volta fet el git add, cal fer un git commit(recomane gastar git commit -a -m per a fer els commits) per tal de quedar 			registrat i tindre un log.
+	4rt .- I com a pass final, cal fer un git push origin master per a fer el push a la branca mare.
+	5nt .- Si necesitem crear una branca en local recordar fer un git branch "nom de la branca".
+	6xt .- Per a canviar de branca, fer un git checkout "nom de la branca".
+	7im .- Si es vol fer un push de la branca a la branca mare, cal fer un git push origin "nom de la branca".
