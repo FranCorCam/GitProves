@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Exercici 10.6</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="exercici10.6.css">
+    </head>
+    <!--
+
+
+
+progress progress-striped active-->
+    <body>
+        <section class="container">
+            <header class="text-center"><h1>PROVA DE BOOTSTRAP</h1></header> 
+            <section class="row col-12">
+                <div class="col-12 row">
+                    <div class="center-block" style="width:500px;background-color:blue;color:white;text-align:center;">Prova de center-block</div>
+                </div><br>
+                <div class="row">
+                    <div class="col-xs-6 col-sm-3">Prueba clearfix</div>
+                    <div class="col-xs-6 col-sm-3">Prueba clearfix</div>
+
+                    <!-- La clase 'clearfix' sólo se aplica cuando el dispositivo sea
+                         muy pequeño, tal y como indica la clase 'visible-xs' -->
+                    <div class="clearfix visible-xs"></div>
+
+                    <div class="col-xs-6 col-sm-3">Prueba clearfix</div>
+                    <div class="col-xs-6 col-sm-3">Prueba clearfix</div>
+                </div>         
+                <button type="button" class="btn btn-default close">Boton class close  &times;</button>
+
+                <div class="col-xs-12 col-sm-12 col-lg-12 col-md-12 center show" style="text-align: center;background-color: #ffd197;color:purple;">
+                    Prova de la classe show a bootstrap
+                </div>
+                <div class="col-xs-5 col-sm-5 col-lg-5 col-md-5"></div>
+                <ul class="col-xs-4 col-sm-4 col-lg-4 col-md-4 pagination ">
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                </ul>
+                <div class="col-xs-3 col-sm-3 col-lg-3 col-md-3"></div>
+                <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4 btn-group">
+                    <button type="button" class="btn btn-default">Button 1</button>
+                    <button type="button" class="btn btn-default">Button 2</button>
+                    <button type="button" class="btn btn-default">Button 3</button>
+                </div>
+
+<div class="col-xs-4 col-sm-4 col-lg-4 col-md-4 alert alert-success">Prova de alert-success</div>
+<div class="col-xs-4 col-sm-4 col-lg-4 col-md-4 alert alert-danger">Prova de alert-danger</div>
+<div class="col-xs-12 col-sm-12 col-lg-12 col-md-12 progress progress-striped">
+  <div class="progress-bar progress-bar-success active" role="progressbar"
+       aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+       style="width: 60%">
+    <span class="sr-only">60% completado (aviso)</span>
+  </div>
+</div>
+
+            </section>
+            <footer></footer>
+        </section>
+    </body>
+</html>

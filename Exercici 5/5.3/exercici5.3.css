@@ -1,9 +1,23 @@
-a{
-    text-decoration:none;
-    color:blue;
+a:link {   
+    text-decoration:none;   
+}
+a[href*="mailto"] {
+    background: url('mail.png') left center no-repeat;
+    padding-left: 30px;
+    width: 10px;
+}
+a[class*="pdf"] {
+    background: url('pdf.gif') right center no-repeat;
+    padding-right: 30px;
+}
+a[class*="zip"] {
+    background: url('zip.gif') right center no-repeat;
+    padding-right: 30px;
+}
+section {
+    width:400px;
+    border:1px solid black;
+    padding-left:30px;
 }
 
-[href*='mailto']{
-    
-}
 
